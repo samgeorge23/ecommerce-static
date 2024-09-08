@@ -206,9 +206,25 @@ a{
 .ad-card > *{
     background-color: transparent;
     color:white;
+    margin-bottom:10px;
 }
 
 .ad-card button{
     border-style:solid;
     border-color: white;
+    width:fit-content;
+    padding:10px;
+    transition:0.2s;
+}
+
+.ad-card:hover button{
+    background-color: #088178;
+    border-color:#088178;
+}
+
+h2{
+    font-size: 3em;
+}
+h4{
+    font-size: 1.8em;
 }
