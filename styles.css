@@ -171,3 +171,44 @@ a{
     background-color: #088178;
     color:#e3e6f3;
 }
+
+.ads{
+    padding:0 60px;
+}
+
+.big-ads{
+    display:flex;
+    justify-content: center;
+    gap:30px;
+
+}
+
+.ad-card{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height:300px;
+    min-width: 580px;
+    text-align: left;
+    padding:0 20px;
+}
+
+.ad-card-1{
+    background-image: url('images/banner/b17.jpg');
+
+    
+}
+
+.ad-card-2{
+    background-image: url('images/banner/b10.jpg');
+}
+
+.ad-card > *{
+    background-color: transparent;
+    color:white;
+}
+
+.ad-card button{
+    border-style:solid;
+    border-color: white;
+}
