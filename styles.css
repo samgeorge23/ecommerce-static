@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+*{
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    margin:0;
+    font-family: "League Spartan", sans-serif;
+    font-size: 1.1rem;  
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+    gap:20px;
+    height:6em;
+    background-color:#e3e6f3;
+    padding:20px;
+    box-shadow: 0 5px 10px gray;
+    top:0;
+    position:sticky;
+    z-index: 1;
+}
+
+
+.logoLink{
+    margin-right:auto;
+    height:130%;
+}
+
+
+.navLink{
+    background-color:#e3e6f3;
+    
+}
+
+.navLink:hover{
+   color: #389893;
+   text-decoration: underline;
+   text-decoration-thickness: 0.3em;
+   text-underline-offset: 0.75em;
+   /* need to add where to start the line from */
+   
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.navLogo{
+    height:100%;
+    width:100%;
+    background-color:#e3e6f3;
+}
+
+.carousel{
+    background-image: url("images/hero4.png");
+    background-size: cover;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.carousel-text{
+    margin-bottom:0.2em;
+    background-color: #e3e6f3;
+}
+.features{
+    display:flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.card{
+    border: 0.5px green solid;
+    border-radius: 10px;
+    padding:20px;
+    color:#389893;
+    background-color: white;
+}
+
+.card img{
+    margin-bottom: 10px;
+}
+
+.products{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.tshirts{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+.shirt-cards{
+    width:280px;
+    border:1px solid #ebebeb;
+    padding:20px;
+    border-radius: 10px;
+    position:relative;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.2s;
+}
+
+.shirt-cards > *{
+    margin-bottom: 10px;
+}
+
+.shirt-cards > .stars, .price, h4{
+    text-align: left;
+}
+
+.shirt-cards img{
+    width:80%;
+    border-radius: 10px;
+}
+
+.shirt-cards .stars{
+    color:#e6ae2c;;
+}
+
+.shirt-cards .price{
+    color:#389893;
+}
+
+.shirt-cards span{
+    color:#969696;
+    display:block;
+    text-align: left;
+}
+
+.shirt-cards a i{
+    background-color:#EAF7F6 ;
+    padding:10px;
+    border-radius: 20px;
+    color:#088178;
+    position:absolute;
+    right:30px;
+    bottom:30px;
+}
+
+.banner{
+    background-image: url('images/banner/b2.jpg');
+    background-size: cover;
+    height:40vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.normal{
+    border-style:none;
+    padding:20px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.normal:hover{
+    background-color: #088178;
+    color:#e3e6f3;
+}
