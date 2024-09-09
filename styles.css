@@ -228,3 +228,117 @@ h2{
 h4{
     font-size: 1.8em;
 }
+
+.small-ads{
+    display:flex;
+    
+    justify-content: center;
+    gap:10px;
+    padding:20px;
+}
+
+.small-card{
+    width:390px;
+    height:200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:25px;
+    background-size: cover;
+    color:white;
+}
+
+.small-card > *{
+    background-color: transparent;
+}
+
+.small-card-1{
+    background-image: url('images/banner/b17.jpg');
+    
+}
+.small-card-2{
+    background-image: url('images/banner/b4.jpg');
+}
+.small-card-3{
+    background-image: url('images/banner/b7.jpg');
+}
+
+.newsletter{
+    background-image: url('images/banner/b14.png');
+    background-repeat: no-repeat;
+    background-color: #041e42;
+    background-position: 180px;
+    padding: 0 75px;
+    height:160px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newsletter-text, .newsletter-text >* , .newsletter-text h5 span{
+    color:white;
+    background-color:transparent;
+}
+
+.form{
+    background-color: transparent;
+}
+
+.newsletter .form > *{
+    border:none;
+    outline:none;
+    height:56px;
+    padding:20px;
+    border-radius: 0 6px 6px 0;
+    
+    
+}
+
+.newsletter .form input{
+    background-color: #d1d0d0;
+    width:350px;
+    border-radius: 6px 0 0 6px;
+    
+}
+
+.newsletter .form button{
+    background-color: #088178;
+    color:white;
+    margin-left: -5px;
+}
+
+footer{
+    padding:75px;
+    background-color: #ececec;
+    display:flex;
+    justify-content: space-around;
+}
+
+.footer-card{
+    display:flex;
+    flex-direction: column;
+    background-color: #ececec;
+}
+
+.footer-card > *{
+    margin-bottom: 20px;
+    background-color: #ececec;
+}
+
+.social-links > *{
+    background-color: #ececec;
+}
+
+.download{
+    background-color: #e3e6f3;
+}
+
+.download a{
+    text-decoration: none;
+    background-color: #e3e6f3;
+}
+
+.download a img{
+    border-radius: 10px;
+    border: 1px solid #08817969;
+}
